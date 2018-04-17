@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zhongwenhui.tdin360.chatinput.MainActivity">
+
+  <cn.jiguang.imui.chatinput.ChatInputView
+      android:id="@+id/chat_input"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      app:cameraBtnIcon="@drawable/aurora_menuitem_camera"
+      app:inputCursorDrawable="@drawable/aurora_edittext_cursor_bg"
+      app:inputEditTextBg="@drawable/aurora_edittext_cursor_bg"
+      app:inputHint="输入"
+      app:photoBtnIcon="@drawable/aurora_menuitem_photo"
+      app:sendBtnIcon="@drawable/aurora_menuitem_send"
+      app:voiceBtnIcon="@drawable/aurora_menuitem_mic"/>
+
+</LinearLayout>
